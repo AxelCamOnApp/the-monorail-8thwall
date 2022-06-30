@@ -1,0 +1,80 @@
+:root {
+    --main-brand-color: #452850;
+    --secondary-brand-color: #998a9e;
+    --background-color: linear-gradient(180deg, rgba(200, 228, 229, 1) 0%, rgba(218, 227, 222, 1) 14%, rgba(239, 226, 214, 1) 100%);
+    --txt-main-color: #452850;
+    --btn-txt-main-color: #fff;
+    --btn-txt-secondary-color: #452850;
+    --btn-main-color: #452850;
+    --btn-secondary-color: #fff;
+    --qr-logo-url: url(../img/logo.svg); /* */
+
+    --qr-background-color: linear-gradient(180deg, rgba(200, 228, 229, 1) 0%, rgba(218, 227, 222, 1) 14%, rgba(239, 226, 214, 1) 100%); /* Color del background*/
+    --txt-qr-color:#452850; /* Color del texto debajo del QR*/
+    --btn-qr-color: #452850; /* Color del boton de ver producto*/
+    --btn-txt-qr-color: #fff; /* Color del texto del boton */
+    --btn-qr-hover-color: #fff; /* Col,or del boton de ver producto en estado hover */
+    --btn-txt-qr-hover-color: #452850; /*Col,or del texto de ver productod en estado hover*/
+    --txt-footer-color: #452850; /* Color de texto del footer de redireccion sin el link*/
+    --txt-redirect-color: #998a9e; /* Color de texto de link de redireccion*/
+
+}
+
+@font-face {
+    font-family: 'coaFontLight';
+    src: url('./Quicksand-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'coaFontBold';
+    src: url('./Quicksand-Bold.ttf');
+}
+@font-face {
+    font-family: 'coaFontLightQR';
+    src: url('./Quicksand-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'coaFontBoldQR';
+    src: url('./Quicksand-Bold.ttf');
+}
+
+.preloader-center .preloader-bg {
+    background-image: url(../img/grilla.svg);
+}
+.preloader-header .logo-3d {
+    background-image: url(../img/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 120px;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+}
+.start-ar .start-ar-logo {
+    mask-image: url("../img/icon3d.svg");
+    -webkit-mask-image: url("../img/icon3d.svg");
+}
+
+.preloader .footer .logo {
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 80px;
+    display: inline-block;
+    top: 15px;
+    position: relative;
+    left: -7px;
+}
+
+/*Rewrites */
+
+.qr_logo{
+    height: 150px;
+    width: 300px;
+    background-image: url(../img/logo.svg);
+}
+.qr_border{
+    border: 1px;
+}

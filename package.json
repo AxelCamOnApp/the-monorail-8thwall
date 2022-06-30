@@ -1,0 +1,25 @@
+{
+  "name": "the-monorail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camonapp/the-monorail.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camonapp/the-monorail/issues"
+  },
+  "homepage": "https://github.com/camonapp/the-monorail#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-uglify-es": "^2.0.0",
+    "gulp-uglifycss": "^1.1.0",
+    "http-server": "^13.0.2"
+  }
+}

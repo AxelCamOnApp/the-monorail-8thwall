@@ -1,0 +1,146 @@
+:root {
+     --main-brand-color: #ffffff;
+    --secondary-brand-color: #000066;
+    --background-color: linear-gradient(to bottom, #22225f, #223175, #1f62a8, #2692cc, #9dd6eb);
+    --txt-main-color: #000066;
+    --btn-txt-main-color: #fff;
+    --btn-txt-secondary-color: #000066;
+    --btn-main-color: #2692cc;
+    --btn-secondary-color: #fff;
+    --qr-logo-url: url(../img/Logo.svg); /* */
+
+    --qr-background-color: linear-gradient(to bottom, #22225f, #223175, #1f62a8, #2692cc, #9dd6eb); /* Color del background*/
+    --txt-qr-color:#fff; /* Color del texto debajo del QR*/
+    --btn-qr-color: #fff; /* Color del boton de ver producto*/
+    --btn-txt-qr-color: #2692cc; /* Color del texto del boton */
+    --btn-qr-hover-color: #2692cc; /* Col,or del boton de ver producto en estado hover */
+    --btn-txt-qr-hover-color: #fff; /*Col,or del texto de ver productod en estado hover*/
+    --txt-footer-color: #2692cc; /* Color de texto del footer de redireccion sin el link*/
+    --txt-redirect-color: #000066; /* Color de texto de link de redireccion*/
+
+}
+
+@font-face {
+    font-family: 'coaFontLight';
+    src: url('./OnAir-Light.e3b307c6.ttf');
+}
+
+@font-face {
+    font-family: 'coaFontBold';
+    src: url('./Gotham_Rounded_Bold.otf');
+}
+
+@font-face {
+    font-family: 'coaFontLightQR';
+    src: url('./OnAir-Light.e3b307c6.ttf');
+}
+@font-face {
+    font-family: 'coaFontBoldQR';
+    src: url('./OnAir-Bold.ttf');
+}
+
+
+.preloader .preloader-header{
+    color: #fff;
+    display:none;
+}
+
+.preloader-center .preloader-bg {
+    background-image: url(../img/Grilla.svg);
+    display:none;
+}
+
+.preloader-center .loading-content {
+    height: 200px !important;
+            display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+
+}
+.preloader-qr .preloader-qr-code {
+    border: none;
+}
+.qrcontainer .preloader-header .logo-3d {
+    top:40%;
+}
+.preloader-qr .qr-description-1, .preloader-qr .qr-description-2 {
+
+    color: var(--main-brand-color);
+}
+.footer .ar-footer-text{
+    color: var(--main-brand-color);
+}
+.ar-footer-button{
+    background-color: var(--main-brand-color);
+    color: var(--btn-main-color)
+}
+.preloader-center .loading-content span {
+    margin: 10px 0;
+    font-family: 'coaFontLight';
+    font-size:1.5em;
+    color: var(--main-brand-color);
+}
+.preloader-header .logo-3d {
+    background-image: url(../img/Logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 120px;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+}
+.preloader-center .loading-content .logo-3d {
+    background-image: url(../img/Logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 120px;
+    display: inline-block;
+    position: relative;
+
+}
+.preloader-center .loading-indicator {
+    width: 250px;
+}
+.start-ar .start-ar-logo {
+    mask-image: url("../img/icon3d.svg");
+    -webkit-mask-image: url("../img/icon3d.svg");
+}
+.start-ar span {
+    float: left;
+    margin: 6px 0 0 10px;
+}
+/*
+.preloader .footer span {
+    color: var(--secondary-brand-color);
+}
+.preloader .footer .logo {
+    background-image: url(../img/Logo_footer.svg);
+    background-repeat: no-repeat;
+
+    background-size: contain;
+    height: 30px;
+    width: 50px;
+    display: inline-block;
+    top: 10px;
+;
+    position: relative;
+
+}*/
+
+/*Rewrites */
+
+.qr-description-1, .ar-footer.ar-footer-text, .ar-footer-button, .ar-footer-click{
+    font-family: 'coaFontBoldQR' !important;
+}
+
+.qr_logo{
+    height: 120px;
+    width: 300px;
+    background-image: url(../img/Logo.svg);
+}
+.qr_border{
+    border: none;
+}

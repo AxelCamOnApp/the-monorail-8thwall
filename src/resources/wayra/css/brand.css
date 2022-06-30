@@ -1,0 +1,46 @@
+:root {
+    --main-brand-color: #000000;
+    --secondary-brand-color: #991497;
+    --background-color: #ffffff;
+    --txt-main-color: #000;
+    --btn-txt-main-color: #fff;
+    --btn-txt-secondary-color: #991497;
+    --btn-main-color: #991497;
+    --btn-secondary-color: #fff;
+}
+
+@font-face {
+    font-family: 'coaFontLight';
+    src: url('./Telefonica-Regular.otf');
+}
+
+@font-face {
+    font-family: 'coaFontBold';
+    src: url('./Telefonica-Bold.otf');
+}
+
+.preloader-center .preloader-bg {
+    background-image: url(../img/loader_bg.svg);
+}
+
+.start-ar .start-ar-logo {
+    mask-image: url("../img/icon3d.svg");
+    -webkit-mask-image: url("../img/icon3d.svg");
+}
+
+.preloader .footer .logo {
+    background-image: url(../img/logo.svg);
+    height: 38px;
+    width: 80px;
+    display: inline-block;
+    top: 8px;
+    position: relative;
+    left: 0px;
+}
+
+.a-dialog-allow-button,
+.a-dialog-ok-button,
+.button-primary-8w {
+    background-color: var(--secondary-brand-color) !important;
+    border: 2px solid var(--secondary-brand-color) !important;
+}

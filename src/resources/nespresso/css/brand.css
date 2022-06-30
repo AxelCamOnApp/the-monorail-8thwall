@@ -1,0 +1,55 @@
+:root {
+    --main-brand-color: #ffffff;
+    --secondary-brand-color: #cea466;
+    --txt-main-color: #ffffff;
+    --btn-txt-main-color: #fff;
+    --btn-txt-secondary-color: #cea466;
+    --btn-main-color: #cea466;
+    --btn-secondary-color: #fff;
+}
+
+@font-face {
+    font-family: 'coaFontLight';
+    src: url('./NespressoLucas-Light.ttf');
+}
+
+@font-face {
+    font-family: 'coaFontBold';
+    src: url('./NespressoLucas-Bold.otf');
+}
+
+.preloader-center .preloader-bg {
+    background-image: url(../img/loader_bg.svg);
+}
+
+.preloader-center .loading-content {
+    height: 190px !important;
+}
+
+.preloader-center .loading-content .logo-3d {
+    background-image: url(../img/logo_3d.png);
+    background-size: 180px 186px;
+    height: 186px;
+    width: 180px;
+    display: inline-block;
+    position: relative;
+}
+
+.preloader {
+    background: url("../img/background.jpg") !important;
+}
+
+.start-ar .start-ar-logo {
+    mask-image: url("../img/icon3d.svg");
+    -webkit-mask-image: url("../img/icon3d.svg");
+}
+
+.preloader .footer .logo {
+    background-image: url(../img/logo.svg);
+    height: 23px;
+    width: 100px;
+    display: inline-block;
+    top: 5px;
+    position: relative;
+    left: 0px;
+}

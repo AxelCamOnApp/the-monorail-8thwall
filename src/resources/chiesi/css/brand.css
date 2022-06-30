@@ -1,0 +1,55 @@
+:root {
+    --main-brand-color: #ffffff;
+    --secondary-brand-color: #b90066;
+    --background-color: #ffffff;
+    --txt-main-color: #000000;
+    --btn-txt-main-color: #ffffff;
+    --btn-txt-secondary-color: #b90066;
+    --btn-main-color: #b90066;
+    --btn-secondary-color: #fff;
+}
+
+@font-face {
+    font-family: 'coaFontLight';
+    src: url('./segoe-ui.otf');
+}
+
+@font-face {
+    font-family: 'coaFontBold';
+    src: url('./segoe-ui-bold.ttf');
+}
+
+.preloader-center .preloader-bg {
+    background-image: url(../img/loader_bg.svg);
+}
+
+.preloader-center .loading-content {
+    height: 100px !important;
+}
+
+.preloader-center .loading-content .logo-3d {
+    background-image: url(../img/logo_3d.svg);
+    height: 100px;
+    width: 280px;
+    display: inline-block;
+    position: relative;
+}
+
+.start-ar .start-ar-logo {
+    mask-image: url("../img/icon3d.svg");
+    -webkit-mask-image: url("../img/icon3d.svg");
+}
+
+.preloader .footer .logo {
+    background-image: url(../img/logo.svg);
+    height: 50px;
+    width: 130px;
+    display: inline-block;
+    top: 20px;
+    position: relative;
+    left: 2px;
+}
+
+.start-ar span {
+    margin-top: 5px !important;
+}

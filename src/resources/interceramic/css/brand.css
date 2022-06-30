@@ -1,0 +1,47 @@
+:root {
+    --main-brand-color: #ffffff;
+    --secondary-brand-color: #fda947;
+    --background-color: linear-gradient(197deg, rgba(118, 138, 137, 1) 0%, rgba(252, 167, 70, 1) 100%);
+    --txt-main-color: #ffffff;
+    --btn-txt-main-color: #fff;
+    --btn-txt-secondary-color: #fda947;
+    --btn-main-color: #fda947;
+    --btn-secondary-color: #fff;
+}
+
+@font-face {
+    font-family: 'coaFontLight';
+    src: url('./Gilroy-Light.otf');
+}
+
+@font-face {
+    font-family: 'coaFontBold';
+    src: url('./Gilroy-Bold.otf');
+}
+
+.preloader-center .preloader-bg {
+    background-image: url(../img/loader_bg.svg);
+}
+
+.preloader-center .loading-content .logo-3d {
+    background-image: url(../img/logo_3d.svg);
+    height: 60px;
+    width: 260px;
+    display: inline-block;
+    position: relative;
+}
+
+.start-ar .start-ar-logo {
+    mask-image: url("../img/icon3d.svg");
+    -webkit-mask-image: url("../img/icon3d.svg");
+}
+
+.preloader .footer .logo {
+    background-image: url(../img/logo.svg);
+    height: 20px;
+    width: 120px;
+    display: inline-block;
+    top: 4px;
+    position: relative;
+    left: 2px;
+}

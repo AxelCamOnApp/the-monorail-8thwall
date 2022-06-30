@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link id="favicon" rel="shortcut icon" type="image/png" href="">
+    <link rel="stylesheet" href="resources/base/css/viewer.css" />
+    <script src="libs/jquery.min.js"></script>
+    <script type="module" src="libs/model-viewer.js"></script>
+    <script src="resources/base/config.js"></script>
+    <script src="js/viewer.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-analytics.js"></script>
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyCWh3s-w6e8IYcY3aXRmCsKMPEwMI_iFxQ",
+            authDomain: "webxr-model-viewer.firebaseapp.com",
+            databaseURL: "https://webxr-model-viewer.firebaseio.com",
+            projectId: "webxr-model-viewer",
+            storageBucket: "webxr-model-viewer.appspot.com",
+            messagingSenderId: "76490361875",
+            appId: "1:76490361875:web:c2eb27ce45864feaf9c3e6",
+            measurementId: "G-D1Z1JMHPKV"
+        };
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+</head>
+
+<body>
+    <div id="model"></div>
+</body>
+
+</html>

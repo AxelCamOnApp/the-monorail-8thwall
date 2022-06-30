@@ -1,0 +1,39 @@
+:root {
+    --main-brand-color: #ffffff;
+    --secondary-brand-color: #FF9900;
+    --background-color: linear-gradient(56deg, rgba(224, 70, 128, 1) 0%, rgba(114, 48, 141, 1) 100%);
+    --txt-main-color: #ffffff;
+    --btn-txt-main-color: #fff;
+    --btn-txt-secondary-color: #FF9900;
+    --btn-main-color: #FF9900;
+    --btn-secondary-color: #fff;
+}
+
+@font-face {
+    font-family: 'coaFontLight';
+    src: url('./OfficinaSans-Book.otf');
+}
+
+@font-face {
+    font-family: 'coaFontBold';
+    src: url('./officina-serif-itc-bold.otf');
+}
+
+.preloader-center .preloader-bg {
+    background-image: url(../img/loader_bg.svg);
+}
+
+.start-ar .start-ar-logo {
+    mask-image: url("../img/icon3d.svg");
+    -webkit-mask-image: url("../img/icon3d.svg");
+}
+
+.preloader .footer .logo {
+    background-image: url(../img/logo.svg);
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    top: 22px;
+    position: relative;
+    left: 2px;
+}

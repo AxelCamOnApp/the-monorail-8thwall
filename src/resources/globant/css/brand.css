@@ -1,0 +1,63 @@
+:root {
+    --main-brand-color: #444;
+    --secondary-brand-color: #BFD732;
+    --background-color: #ffffff;
+    --txt-main-color: #444;
+    --btn-txt-main-color: #fff;
+    --btn-txt-secondary-color: #BFD732;
+    --btn-main-color: #BFD732;
+    --btn-secondary-color: #fff;
+}
+
+@font-face {
+    font-family: 'coaFontLight';
+    src: url('./Heebo-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'coaFontBold';
+    src: url('./Heebo-Bold.ttf');
+}
+
+.preloader-center .preloader-bg {
+    background-image: url(../img/Grilla.svg);
+}
+.preloader-center .loading-content span{
+    display: none;
+}
+
+.preloader-center .loading-content {
+    height:100px;
+}
+.preloader-center .loading-content .logo-3d {
+    background-image: url(../img/Globant-Original.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 360px;
+    display: inline-block;
+    position: relative;
+}
+.preloader .loading-indicator {
+    width: 250px;
+}
+.start-ar .start-ar-logo {
+    mask-image: url("../img/icon3d.svg");
+    -webkit-mask-image: url("../img/icon3d.svg");
+}
+
+.start-ar span {
+    float: left;
+    margin: 6px 0 0 10px;
+}
+.preloader .footer .logo {
+    background-image: url(../img/Short-Original.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 46px;
+    width: 52px;
+    display: inline-block;
+    top: 15px;
+    position: relative;
+    left: -7px;
+}

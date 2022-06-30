@@ -1,0 +1,26 @@
+{
+    "es": {
+        "document_title": "Disney Castle Collection Immersive",
+        "main_3d": "",
+        "experience_type_360": "",
+        "experience_type_ar": "",
+        "powered_by_2": "",
+        "loading_360_1": "Loading your immersive 360",
+        "loading_360_2": "degree experience",
+        "loading_ar_1": "Making magic to reveal",
+        "loading_ar_2": "your 3D castle",
+        "ar_tap_to_place": "Tap the screen to place<br />the virtual castle"
+    },
+    "en": {
+        "document_title": "Disney Castle Collection Immersive",
+        "main_3d": "",
+        "experience_type_360": "",
+        "experience_type_ar": "",
+        "powered_by_2": "",
+        "loading_360_1": "Loading your immersive 360",
+        "loading_360_2": "degree experience",
+        "loading_ar_1": "Making magic to reveal",
+        "loading_ar_2": "your 3D castle",
+        "ar_tap_to_place": "Tap the screen to place<br />the virtual castle"
+    }
+}

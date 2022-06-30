@@ -1,0 +1,109 @@
+:root {
+    --main-brand-color: #900027;
+    --secondary-brand-color: #900027;
+    --txt-main-color: #000000;
+    --btn-txt-main-color: #fff;
+    --btn-txt-secondary-color: #900027;
+    --btn-main-color: #900027;
+    --btn-secondary-color: #fff;
+    --qr-logo-url: url(../img/logo_qr.svg); /* */
+
+    --qr-background-color: #fff; /* Color del background*/
+    --txt-qr-color:#000000; /* Color del texto debajo del QR*/
+    --btn-qr-color: #900027; /* Color del boton de ver producto*/
+    --btn-txt-qr-color: #fff; /* Color del texto del boton */
+    --btn-qr-hover-color: #fff; /* Col,or del boton de ver producto en estado hover */
+    --btn-txt-qr-hover-color: #900027; /*Col,or del texto de ver productod en estado hover*/
+    --txt-footer-color: #ffffff; /* Color de texto del footer de redireccion sin el link*/
+    --txt-redirect-color: #ffffff; /* Color de texto de link de redireccion*/
+
+}
+
+@font-face {
+    font-family: 'coaFontLight';
+    src: url('./TradeGothicLTStd.otf');
+}
+
+@font-face {
+    font-family: 'coaFontBold';
+    src: url('./TradeGothicLTStd-Bd2.otf');
+}
+@font-face {
+    font-family: 'coaFontLightQR';
+    src: url('./TradeGothicLTStd.otf');
+}
+
+@font-face {
+    font-family: 'coaFontBoldQR';
+    src: url('./TradeGothicLTStd-Bd2.otf');
+}
+@font-face {
+    font-family: 'coaFontBoldQR2';
+    src: url('./Quicksand_Bold.otf');
+}
+.preloader-center .preloader-bg {
+    background-image: url(../img/grilla.svg);
+}
+.preloader-center .loading-content span{
+    display: none;
+}
+
+.preloader-center .loading-content {
+    height: 100px;
+    margin-bottom: 30px;
+}
+.preloader-header .logo-3d {
+    background-image: url(../img/logo_qr.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 120px;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+}
+.preloader-center .loading-content .logo-3d {
+    background-image: url(../img/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 115px;
+    width: 90px;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+}
+.preloader .loading-indicator {
+    width: 250px;
+}
+.start-ar .start-ar-logo {
+    mask-image: url("../img/icon3d.svg");
+    -webkit-mask-image: url("../img/icon3d.svg");
+}
+
+.start-ar span {
+    float: left;
+    margin: 8px 0 0 10px;
+    font-family: 'coaFontBold';
+}
+.preloader .footer .logo {
+    background-image: url(../img/logo-b.svg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    height: 46px;
+    width: 150px;
+    display: inline-block;
+    top: 19px;
+    position: relative;
+    left: -7px;
+}
+
+/*Rewrites */
+
+.qr_logo{
+    height: 150px;
+    width: 300px;
+   background-image: url(../img/logo_qr.svg);
+}
+.qr_view--button{
+    font-family: 'coaFontBoldQR2' !important;
+}

@@ -1,0 +1,22 @@
+{
+    
+        "es": {
+            "document_title": "O2",
+            "main_3d": "El producto 3D se está cargando",
+            "experience_type_360": "El producto 3D se está cargando",
+            "experience_type_ar": "El producto 3D se está cargando"
+        },
+        "en": {
+            "document_title": "O2",
+            "main_3d": "The 3D product is loading",
+            "experience_type_360": "The 3D product is loading",
+            "experience_type_ar": "The 3D product is loading"
+        },
+        "de": {
+            "document_title": "O2",
+            "main_3d": "Das 3D Produkt wird geladen",
+            "experience_type_360": "Das 3D Produkt wird geladen",
+            "experience_type_ar": "Das 3D Produkt wird geladen"
+        }
+    
+}

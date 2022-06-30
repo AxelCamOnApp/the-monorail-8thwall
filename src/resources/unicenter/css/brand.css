@@ -1,0 +1,166 @@
+:root {
+    --main-brand-color: #fdcf91;
+    --secondary-brand-color: #d4102d;
+    --background-color: #ffffff;
+    --txt-main-color: #fff;
+    --btn-txt-main-color: #fff;
+    --btn-txt-secondary-color: #d4102d;
+    --btn-main-color: #d4102d;
+    --btn-secondary-color: #fff;
+
+    --qr-background-color: #fff; /* Color del background*/
+    --txt-qr-color:#017d39; /* Color del texto debajo del QR*/
+    --btn-qr-color: #d4102d; /* Color del boton de ver producto*/
+    --btn-txt-qr-color: #fff; /* Color del texto del boton */
+    --btn-qr-hover-color: #fff; /* Col,or del boton de ver producto en estado hover */
+    --btn-txt-qr-hover-color: #d4102d; /*Col,or del texto de ver productod en estado hover*/
+    --txt-footer-color: #017d39; /* Color de texto del footer de redireccion sin el link*/
+    --txt-redirect-color: #017d39; /* Color de texto de link de redireccion*/
+}
+
+@font-face {
+    font-family: 'coaFontLight';
+    src: url('./JosefinSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'coaFontBold';
+    src: url('./JosefinSans-Bold.ttf');
+}
+@font-face {
+    font-family: 'coaFontLightQR';
+    src: url('./JosefinSans-Bold.ttf');
+}
+@font-face {
+    font-family: 'coaFontBoldQR';
+    src: url('./JosefinSans-Bold.ttf');
+}
+
+.preloader {
+    background-image: url(../img/Fondo-Desktop-1920x1080.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.preloader-center .preloader-bg {
+    background-image: none
+}
+.preloader .loading-indicator {
+    width:250px;
+}
+
+.preloader .footer span {
+    font-family: 'coaFontLight';
+}
+
+
+.preloader .footer .poweredby_ar {
+    width: 180px;
+}
+
+.preloader-center .loading-content {
+    height: 100px !important;
+}
+
+.preloader-center .loading-content .logo-3d {
+    background-image: url(../img/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 160px;
+    width: 160px;
+    display: inline-block;
+    position: relative;
+    top: -155px;
+}
+
+.preloader .loading-indicator {
+    width: 180px;
+    height: 8px;
+    border: 2px solid var(--secondary-brand-color);
+    border-radius: 8px;
+    position: relative;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    top: -125px;
+}
+
+.preloader-header-qr .logo-3d {
+    background-image: url(../img/icon3d.svg);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    position: relative;
+}
+
+.start-360 .start-360-logo {
+    mask-image: url("../img/icon_360.svg");
+    -webkit-mask-image: url("../img/icon_360.svg");
+}
+
+.preloader .footer {
+    font-size: 12px;
+}
+
+
+.preloader .footer{
+    display: none;
+}
+
+.prompt-box-8w {
+    font-family: 'coaFontLight';
+    background-color: #fff !important;
+}
+
+.a-dialog-deny-button,
+.prompt-button-8w:not(:last-child),
+.a-dialog-allow-button,
+.a-dialog-ok-button,
+.button-primary-8w {
+    font-family: 'coaFontLight' !important;
+}
+.preloader-center .loading-content span {
+    display: none;
+}
+@media (min-width: 1024px)  {
+    .preloader-center .loading-content .logo-3d {
+        background-image: url(../img/logo.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 160px;
+        width: 160px;
+        display: inline-block;
+        position: relative;
+        top: -175px;
+    }
+    .preloader .loading-indicator {
+        width: 180px;
+        height: 8px;
+        border: 2px solid var(--secondary-brand-color);
+        border-radius: 8px;
+        position: relative;
+        margin: 20px auto 0 auto;
+        text-align: center;
+        top: -145px;
+    }
+}
+@media (max-width: 425px)  {
+    .preloader {
+        background-image: url(../img/Fondo-Mobile-1080x1920.png);
+    }
+}
+
+.qr_logo {
+    height: 120px;
+    width: 300px;
+    background-image: url('../img/logo_qr.svg');
+    background-size: 150px;
+}
+.qr_border{
+    border: solid 1px #000;
+    margin: 30px auto;
+}
+.start-ar .start-ar-logo {
+    mask-image: url(../img/icon3d.svg);
+    -webkit-mask-image: url(../img/icon3d.svg);
+}

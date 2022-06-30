@@ -1,0 +1,22 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Install started on `date`
+      - npm install --global gulp-cli
+      - npm install
+      - echo Install completed on `date`
+  build:
+    commands:
+      - echo Build started on `date`
+      - gulp
+      - echo Build completed on `date`
+  post_build:
+    commands:      
+      - echo Invalidating Cloudfront cache...
+      - aws cloudfront create-invalidation --distribution-id $AWS_CLOUDFRONT_DISTRIBUTION_ID --paths '/_viewer/*'
+artifacts:
+  files:
+    - '**/*'
+  base-directory: 'dist'

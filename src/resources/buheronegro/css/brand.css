@@ -1,0 +1,52 @@
+:root {
+    --main-brand-color: #000;
+    --secondary-brand-color: #000;
+    --background-color: #ffffff;
+    --txt-main-color: #000;
+    --btn-txt-main-color: #fff;
+    --btn-txt-secondary-color: #b1b1b1;
+    --btn-main-color: #000;
+    --btn-secondary-color: #b1b1b1;
+}
+
+@font-face {
+    font-family: 'coaFontLight';
+    src: url('./Segoe-UI-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'coaFontBold';
+    src: url('./segoe-ui.otf');
+}
+
+.preloader-center .preloader-bg {
+    background-image: url(../img/Grilla.svg);
+}
+.preloader-center .loading-content span{
+    display: none;
+}
+.preloader-center .loading-content .logo-3d {
+    background-image: url(../img/Logo_behero.svg);
+    background-repeat: no-repeat;
+    background-size: 201px 118px;
+    height: 108px;
+    width: 207px;
+    display: inline-block;
+    position: relative;
+    top: -38px;
+}
+.start-ar .start-ar-logo {
+    mask-image: url("../img/icon3d.svg");
+    -webkit-mask-image: url("../img/icon3d.svg");
+}
+
+.preloader .footer .logo {
+    background-image: url(../img/Logo_behero.svg);
+    background-repeat: no-repeat;
+    height: 46px;
+    width: 80px;
+    display: inline-block;
+    top: 15px;
+    position: relative;
+    left: -7px;
+}

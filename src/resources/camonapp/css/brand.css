@@ -1,0 +1,19 @@
+:root {
+    --main-brand-color: #3434e0;
+    --secondary-brand-color: #3434e0;
+    --background-color: #fff;
+    --txt-main-color: #3434e0;
+    --btn-txt-main-color: #fff;
+    --btn-txt-secondary-color: #3434e0;
+    --btn-main-color: #3434e0;
+    --btn-secondary-color: #fff;
+}
+
+.start-ar .start-ar-logo {
+    mask-image: url("../img/icon3d.svg");
+    -webkit-mask-image: url("../img/icon3d.svg");
+}
+
+.preloader-header {
+    color: #000;
+}

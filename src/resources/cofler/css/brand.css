@@ -1,0 +1,54 @@
+:root {
+    --main-brand-color: #ffffff;
+    --secondary-brand-color: #f7941d;
+    --background-color: #FFD100;
+    --txt-main-color: #3c2417;
+    --btn-txt-main-color: #3c2417;
+    --btn-txt-secondary-color: #f7941d;
+    --btn-main-color: #f7941d;
+    --btn-secondary-color: #fff;
+}
+
+@font-face {
+    font-family: 'coaFontLight';
+    src: url('./Helvetica-01.ttf');
+}
+
+@font-face {
+    font-family: 'coaFontBold';
+    src: url('./Helvetica-Bold-02.ttf');
+}
+
+.preloader-center .preloader-bg {
+    background-image: url(../img/loader_bg.svg);
+}
+
+.preloader-center .loading-content {
+    height: 160px !important;
+}
+
+.preloader-center .loading-content .logo-3d {
+    background-image: url(../img/logo_3d.png);
+    height: 160px;
+    width: 320px;
+    background-size: 320px;
+    display: inline-block;
+    position: relative;
+}
+.start-ar{
+    color: #fff;
+}
+.start-ar .start-ar-logo {
+    mask-image: url("../img/icon3d.svg");
+    -webkit-mask-image: url("../img/icon3d.svg");
+}
+
+.preloader .footer .logo {
+    background-image: url(../img/logo.svg);
+    height: 50px;
+    width: 60px;
+    display: inline-block;
+    top: 20px;
+    position: relative;
+    left: 2px;
+}

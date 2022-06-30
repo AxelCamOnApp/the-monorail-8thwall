@@ -1,0 +1,135 @@
+:root {
+    --main-brand-color: #ff8200;
+    --secondary-brand-color: #000a8c;
+    --background-color: #fff;
+    --txt-main-color: #fff;
+    --btn-txt-main-color: #fff;
+    --btn-txt-secondary-color: #ff8200;
+    --btn-main-color: #ff8200;
+    --btn-secondary-color: #fff;
+
+
+    --qr-logo-url: url(../img/logo.svg); /* url del logo */
+    --qr-background-color: #ff8200; /* Color del background*/
+    --txt-qr-color:#fff; /* Color del texto debajo del QR*/
+    --btn-qr-color: #000a8c; /* Color del boton de ver producto*/
+    --btn-txt-qr-color: #fff; /* Color del texto del boton */
+    --btn-qr-hover-color: #fff; /* Col,or del boton de ver producto en estado hover */
+    --btn-txt-qr-hover-color: #000a8c; /*Col,or del texto de ver productod en estado hover*/
+    --txt-footer-color: #fff;/* Color de texto del footer de redireccion sin el link*/
+    --txt-redirect-color: #fff; /* Color de texto de link de redireccion*/
+}
+
+@font-face {
+    font-family: 'coaFontLight';
+    src: url('./HelveticaNeueLTStd-Roman.otf');
+}
+
+@font-face {
+    font-family: 'coaFontBold';
+    src: url('./OmnesProBold2.otf');
+}
+@font-face {
+    font-family: 'coaFontLightQR';
+    src: url('./HelveticaNeueLTStd-Roman.otf');
+}
+
+@font-face {
+    font-family: 'coaFontBoldQR';
+    src: url('./OmnesProBold2.otf');
+}
+body{
+    overflow: hidden;
+}
+
+
+
+.preloader-header {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 160px;
+    color: var(--txt-main-color);
+    background-color: #ff8200;
+}
+.preloader-center {
+    width: 100%;
+    height: calc(100% - 160px);
+    margin-top: 160px;
+    position: relative;
+    background-color: #ff8200;
+}
+
+.preloader-center .preloader-bg {
+    background-image: url(../img/grilla.svg);
+}
+
+.preloader-center .loading {
+    margin: 0 auto;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.preloader-center .loading-content span{
+    display: none;
+}
+
+.preloader-center .loading-content {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 15px;
+    top: 20px;
+}
+.preloader-center .loading-content .logo-3d {
+    background-image: url(../img/logo.png);
+    background-size: 200px;
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+    height: 280px;
+    background-repeat: no-repeat;
+}
+
+.preloader .loading-indicator {
+    width: 250px;
+}
+.start-ar .start-ar-logo {
+    mask-image: url("../img/icon3d.svg");
+    -webkit-mask-image: url("../img/icon3d.svg");
+}
+
+.start-ar span {
+    float: left;
+    margin: 8px 0 0 10px;
+    font-family: 'coaFontBold';
+}
+.preloader .footer .logo {
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    top: 15px;
+    position: relative;
+}
+
+/*    QR   */
+
+.qr_logo{
+    height: 120px;
+    width: 300px;
+    background-image: url(../img/logo.svg);
+}
+
+.qr_container--text2, .qr_redirect--text, .qr_redirect a{
+    font-family: 'coaFontBoldQR';
+}
+.qr_border{
+    border: none;
+}

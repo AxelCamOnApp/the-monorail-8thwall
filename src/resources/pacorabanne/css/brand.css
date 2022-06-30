@@ -1,0 +1,126 @@
+:root {
+    --main-brand-color: #000000;
+    --secondary-brand-color: #000000;
+    --background-color: #ffffff;
+    --txt-main-color: #000000;
+    --btn-txt-main-color: #ffffff;
+    --btn-txt-secondary-color: #ffffff;
+    --btn-main-color: #000000;
+    --btn-secondary-color: #000000;
+    --qr-logo-url: url(../img/logo.svg); /* */
+
+    --qr-background-color: #fff; /* Color del background*/
+    --txt-qr-color:#000000; /* Color del texto debajo del QR*/
+    --btn-qr-color: #000000; /* Color del boton de ver producto*/
+    --btn-txt-qr-color: #fff; /* Color del texto del boton */
+    --btn-qr-hover-color: #fff; /* Col,or del boton de ver producto en estado hover */
+    --btn-txt-qr-hover-color: #000000; /*Col,or del texto de ver productod en estado hover*/
+    --txt-footer-color: #000000; /* Color de texto del footer de redireccion sin el link*/
+    --txt-redirect-color: #000000; /* Color de texto de link de redireccion*/
+
+}
+
+@font-face {
+    font-family: 'coaFontLight';
+    src: url('./Paco.ttf');
+}
+
+@font-face {
+    font-family: 'coaFontBold';
+    src: url('./Paco.ttf');
+}
+@font-face {
+    font-family: 'coaFontLightQR';
+    src: url('./Paco.ttf');
+}
+
+@font-face {
+    font-family: 'coaFontBoldQR';
+    src: url('./Paco.ttf');
+}
+
+.preloader{
+    overflow: hidden
+}
+.preloader-center .preloader-bg {
+    background-image: none;
+    background-color: var(--background-color);
+}
+.preloader-center .loading-content span{
+    display: none;
+}
+.preloader-qr .qr-description-1,
+.preloader-qr .qr-description-2 {
+    font-family: 'coaFontBold';
+
+}
+.preloader-center .loading-content {
+    height:100px;
+}
+.preloader-center .loading-content .logo-3d {
+    background-image: url(../img/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+}
+.qr-container .footer{
+    bottom: 100px;
+}
+/* para QR */
+.preloader-header .logo-3d {
+    background-image: url(../img/logo.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 120px;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+}
+.preloader .loading-indicator {
+    width: 250px;
+}
+.start-ar .start-ar-logo {
+    mask-image: url(../img/icon_3d.svg);
+    background-color: #ffffff;
+    -webkit-mask-image: url(../img/icon_3d.svg);
+}
+
+.start-ar span {
+    float: left;
+    margin: 6px 0 0 10px;
+}
+.preloader .footer .logo {
+    background-image: url(../img/logo-2.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40px;
+    width: 150px;
+    display: inline-block;
+    top: 25px;
+    position: relative;
+    left: -7px;
+    background-size: 150px;
+    margin-left: 8px;
+}
+.preloader .footer .bold {
+    display: none
+}
+.start-ar:active .start-ar-logo {
+    background-color: white;
+}
+.start-ar:active {
+    background: #6a6a6a;
+    border-color: #6a6a6a;
+    color: white;
+}
+
+/*Rewrites */
+
+.qr_logo{
+    height: 150px;
+    width: 300px;
+    background-image: url(../img/logo.svg);
+}

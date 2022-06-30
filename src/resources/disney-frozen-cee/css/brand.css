@@ -1,0 +1,107 @@
+:root {
+    --main-brand-color: #2a8be1;
+    --secondary-brand-color: #002657;
+    --background-color: linear-gradient(180deg, #ECF6FF 0%, #ECF6FF 14%, #7fbaea 100%);
+    --txt-main-color: #002657;
+    --btn-txt-main-color: #fff;
+    --btn-txt-secondary-color: #2a8be1;
+    --btn-main-color: #2a8be1;
+    --btn-secondary-color: #fff;
+    --qr-logo-url: url(../img/logo.svg); /* */
+
+    --qr-background-color:linear-gradient(180deg, #ECF6FF 0%, #ECF6FF 14%, #7fbaea 100%); /* Color del background*/
+    --txt-qr-color:#002657; /* Color del texto debajo del QR*/
+    --btn-qr-color: #2a8be1; /* Color del boton de ver producto*/
+    --btn-txt-qr-color: #fff; /* Color del texto del boton */
+    --btn-qr-hover-color: #fff; /* Col,or del boton de ver producto en estado hover */
+    --btn-txt-qr-hover-color: #452850; /*Col,or del texto de ver productod en estado hover*/
+    --txt-footer-color: #fff; /* Color de texto del footer de redireccion sin el link*/
+    --txt-redirect-color: #fff; /* Color de texto de link de redireccion*/
+
+}
+
+@font-face {
+    font-family: 'coaFontLight';
+    src: url('./Quicksand-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'coaFontBold';
+    src: url('./Quicksand-Bold.ttf');
+}
+@font-face {
+    font-family: 'coaFontLightQR';
+    src: url('./Quicksand-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'coaFontBoldQR';
+    src: url('./Quicksand-Bold.ttf');
+}
+
+body{
+    overflow: hidden;
+}
+
+.preloader-center .preloader-bg {
+    background-image: url(../img/grilla.svg);
+}
+.preloader-center .loading-content span{
+    display: none;
+}
+
+.preloader-center .loading-content {
+    height: 65px;
+    top: -45px;
+}
+.preloader-center .loading-content .logo-3d {
+    background-image: url(../img/logo.png);
+    background-size: 340px;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 340px;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+    top: -75px;
+}
+.preloader .loading-indicator {
+    width: 250px;
+}
+.start-ar .start-ar-logo {
+    mask-image: url("../img/icon3d.svg");
+    -webkit-mask-image: url("../img/icon3d.svg");
+}
+
+.start-ar span {
+    float: left;
+    margin: 8px 0 0 10px;
+    font-family: 'coaFontBold';
+}
+.preloader .footer .logo {
+    background-image: url(../img/logo-2.svg);
+    background-repeat: no-repeat;
+    background-size: 60px;
+    height: 46px;
+    width: 60px;
+    display: inline-block;
+    top: 25px;
+    position: relative;
+    left: -8px;
+}
+.preloader .footer span{
+    color:#fff !important;
+    display: none;
+}
+
+
+/*Rewrites */
+
+.qr_logo{
+    height: 150px;
+    width: 300px;
+    background-image: url(../img/logo.png);
+}
+.qr_border{
+    border: 1px;
+}

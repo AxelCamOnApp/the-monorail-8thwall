@@ -1,0 +1,51 @@
+:root {
+    --main-brand-color: #221f1f;
+    --secondary-brand-color: #221f1f;
+    --background-color: #F3F2F5;
+    --txt-main-color: #221f1f;
+    --btn-txt-main-color: #fff;
+    --btn-txt-secondary-color: #221f1f;
+    --btn-main-color: #221f1f;
+    --btn-secondary-color: #fff;
+}
+
+@font-face {
+    font-family: 'coaFontLight';
+    src: url('./Quicksand-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'coaFontBold';
+    src: url('./Quicksand-Bold.ttf');
+}
+
+.start-ar .start-ar-logo {
+    mask-image: url("../img/icon3d.svg");
+    -webkit-mask-image: url("../img/icon3d.svg");
+}
+
+.preloader .footer .logo {
+    background-image: url(../img/logo.svg);
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    top: 45px;
+    position: relative;
+    left: -5px;
+}
+
+.preloader-center .loading-content span {
+    font-family: 'coaFontLight' !important;
+}
+
+#model {
+    background-color: #F3F2F5;
+}
+
+#model .preloader {
+    background-color: #F3F2F5;
+}
+
+body {
+    background-color: #F3F2F5;
+}
